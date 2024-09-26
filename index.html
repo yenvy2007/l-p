@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Bán Hàng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng Đến Với Trang Web Bán Hàng</h1>
+    </header>
+    
+    <div class="products">
+        <div class="product">
+            <img src="images/z5869674283068_a28efdd1a36f0e9a312cddea4ca0aa57.jpg" alt="Gà Đan Len"width="180">
+            <h3>Gà Đan Len</h3>
+            <p>Mô tả về gà đan len, một sản phẩm thú vị cho người yêu thích đan len.</p>
+            <p><strong>Kích thước:</strong> 10cm x 8cm</p>
+            <p><strong>Giá bán:</strong> 180.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        <div class="product">
+            <img src="images/z5869756433887_9e7d73d5087c9fdb9cb2bd8e862ddb88.jpg" alt="Khăn Đan Len" "width="190">
+            <h3>Khăn Đan Len</h3>
+            <p>Khăn đan len ấm áp, thích hợp cho mùa đông lạnh giá.</p>
+            <p><strong>Kích thước:</strong> 170cm x 20cm</p>
+            <p><strong>Giá bán:</strong> 190.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        <div class="product">
+            <img src="images/z5869674241426_a972783fb0d843b5187bdd744f5d26c0.jpg" alt=" Thỏ đan len" "width="150">
+            <h3>Thỏ đan len</h3>
+            <p> là 1 con thỏ thú vị có thể làm móc khoá à trang trí bàn học.</p>
+            <p><strong>Kích thước:</strong> 10cm x 8cm</p>
+            <p><strong>Giá bán:</strong> 150.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        <!-- Sản phẩm Heo Đan Len -->
+        <div class="product">
+            <h2>Heo Đan Len</h2>
+            <img src="images/z5869674272263_c327fc3884cb9c2d076fc2516793fe91.jpg" alt="Heo đan len" width="200">
+            <p><strong>Mô tả:</strong> Chú heo đan len dễ thương được tạo ra từ sợi len mềm mại, an toàn và thân thiện với môi trường. Với đôi mắt tròn xoe và thân hình nhỏ nhắn, chú heo này sẽ là món quà lý tưởng cho trẻ em hoặc để trang trí trong nhà.</p>
+            <p><strong>Kích thước:</strong> 10cm x 8cm</p>
+            <p><strong>Giá bán:</strong> 150.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        
+        <!-- Sản phẩm Móc Khóa Đan Len Hình Cô Gái và Chàng Trai -->
+        <div class="product">
+            <h2>Móc Khóa Đan Len Hình Cô Gái và Chàng Trai</h2>
+            <img src="images/z5869674251315_42b68e08b2e7a8ef3a5621f9ee452828.jpg" alt="Móc khóa đan len hình cô gái và chàng trai" width="200">
+            <p><strong>Mô tả:</strong> Bộ móc khóa đan len hình cô gái và chàng trai, được làm thủ công tỉ mỉ từ len sợi mềm mại. Đây là món quà dễ thương dành cho các cặp đôi hoặc dùng để trang trí túi xách, balo.</p>
+            <p><strong>Kích thước:</strong> 7cm x 5cm</p>
+            <p><strong>Giá bán:</strong> 100.000 VND/cặp</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        
+        <!-- Sản phẩm Bò Đan Len -->
+        <div class="product">
+            <h2>Bò Đan Len</h2>
+            <img src="images/z5869674259518_5a487525015de59bd6db056162f1716c.jpg" alt="Bò đan len" width="200">
+            <p><strong>Mô tả:</strong> Chú bò đan len ngộ nghĩnh với các chi tiết sinh động, được làm từ len chất lượng cao, sẽ là món đồ chơi đáng yêu cho bé hoặc để trang trí bàn làm việc.</p>
+            <p><strong>Kích thước:</strong> 12cm x 10cm</p>
+            <p><strong>Giá bán:</strong> 180.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+        
+        <!-- Sản phẩm Vịt Đan Len -->
+        <div class="product">
+            <h2>Vịt Đan Len</h2>
+            <img src="images/z5869674259518_5a487525015de59bd6db056162f1716c.jpg" alt="Vịt đan len" width="200">
+            <p><strong>Mô tả:</strong> Vịt đan len dễ thương, được làm hoàn toàn từ sợi len tự nhiên, rất an toàn cho trẻ em. Đây là món quà hoàn hảo cho bé yêu hoặc để trang trí không gian sống.</p>
+            <p><strong>Kích thước:</strong> 8cm x 6cm</p>
+            <p><strong>Giá bán:</strong> 120.000 VND</p>
+            <button type="button">Mua ngay</button>
+        </div>
+    
+    <button id="loadData">Tải Dữ Liệu</button>
+    <div id="data"></div>
+    
+    <!-- Chatbot Tawk.to -->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function() {
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/your_tawkto_id/default'; // Thay thế với ID của bạn
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <script src="<script src="//<div class="chatbox">
+        <div id="chat-window">
+            <div id="chat-messages"></div>
+        </div>
+        <input type="text" id="input-message" placeholder="Nhập câu hỏi của bạn..."/>
+        <button id="button-send">Gửi</button>
+    </div>" async></script>"></script>
+</body>
+</html>

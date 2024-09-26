@@ -1,0 +1,97 @@
+/* Kiểu dáng chung cho sản phẩm */
+.product {
+    border: 1px solid #ddd; /* Đường viền xung quanh sản phẩm */
+    border-radius: 10px; /* Bo tròn các góc */
+    padding: 20px; /* Khoảng cách bên trong khối sản phẩm */
+    margin: 20px; /* Khoảng cách bên ngoài khối sản phẩm */
+    text-align: center; /* Căn giữa nội dung trong khối */
+    max-width: 300px; /* Chiều rộng tối đa của sản phẩm */
+    background-color: #f9f9f9; /* Màu nền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    display: inline-block; /* Cho phép hiển thị theo hàng ngang */
+    vertical-align: top; /* Căn trên cùng cho các khối sản phẩm */
+}
+
+/* Hình ảnh sản phẩm */
+.product img {
+    max-width: 100%; /* Chiều rộng tối đa của hình ảnh */
+    border-radius: 5px; /* Bo tròn góc hình ảnh */
+}
+
+/* Tiêu đề sản phẩm */
+.product h2 {
+    font-size: 1.5em; /* Kích thước chữ cho tiêu đề */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+    color: #333; /* Màu chữ tiêu đề */
+}
+
+/* Mô tả và các thông tin khác */
+.product p {
+    font-size: 1em; /* Kích thước chữ cho mô tả */
+    color: #666; /* Màu chữ mô tả */
+    margin-bottom: 10px; /* Khoảng cách dưới mỗi đoạn mô tả */
+}
+
+/* Nút mua ngay */
+.product button {
+    background-color: #4CAF50; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+    font-size: 1em; /* Kích thước chữ trong nút */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Bo tròn góc nút */
+    cursor: pointer; /* Hiển thị biểu tượng con trỏ khi di chuột */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền khi di chuột */
+}
+
+.product button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua nút */
+}
+
+/* Đảm bảo sản phẩm hiển thị theo hàng ngang khi cửa sổ lớn hơn */
+@media (min-width: 600px) {
+    .product {
+        width: 30%; /* Chiều rộng mỗi sản phẩm khi hiển thị trên màn hình lớn */
+        margin: 20px 1.5%; /* Khoảng cách bên ngoài cho sản phẩm */
+    }
+}
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-window {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.user {
+    text-align: right;
+    color: blue;
+}
+
+.bot {
+    text-align: left;
+    color: green;
+}
+
+#input-message {
+    width: calc(100% - 80px);
+    padding: 10px;
+}
+
+#button-send {
+    width: 70px;
+    padding: 10px;
+}
